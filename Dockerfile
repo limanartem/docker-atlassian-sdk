@@ -5,6 +5,8 @@ ARG ATLS_VERSIN=8.0.16
 #
 # BASE PACKAGES + DOWNLOAD GLIBC & ORACLE JAVA & ATLASSIAN SDK
 #
+#
+
 RUN apk add --no-cache \
   bash \
   ca-certificates \
